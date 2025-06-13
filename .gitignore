@@ -1,0 +1,7 @@
+# İşletim Sistemi tarafından oluşturulan dosyalar
+.DS_Store
+Thumbs.db
+
+# Editör ve IDE ayar dosyaları
+.vscode/
+.idea/
