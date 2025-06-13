@@ -2,7 +2,9 @@
 Kullanıcıların şifre güvenliği konusundaki farkındalığını artırmak amacıyla geliştirilmiş, tamamen istemci tarafında çalışan, interaktif ve görsel bir web uygulaması.
 
 
-(Uygulamanın demo GIF'i)
+![image](https://github.com/user-attachments/assets/b201681c-c8ca-49ab-aac0-bc596cc099f7)
+
+
 🇹🇷 Türkçe
 🚀 Özellikler
 * Çok Dilli Arayüz: Tek bir tıklama ile Türkçe ve İngilizce dilleri arasında geçiş yapma imkanı.
