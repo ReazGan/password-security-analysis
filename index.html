@@ -48,7 +48,6 @@
             position: relative;
         }
         
-        /* DÜZELTME: Dil Değiştirme Butonları */
         .lang-switcher {
             position: absolute;
             top: 15px;
@@ -133,7 +132,6 @@
             left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 14px;
         }
 
-        /* YENİ: Nefes Alma Animasyonu */
         @keyframes breathing {
             0% { transform: scale(1); box-shadow: 0 0 4px rgba(0, 255, 65, 0.2); }
             50% { transform: scale(1.05); box-shadow: 0 0 10px rgba(0, 255, 65, 0.4); }
@@ -258,7 +256,6 @@
             }
         };
 
-        // --- OLAY DİNLEYİCİLER ---
         elements.passwordInput.addEventListener('input', handlePasswordInput);
         elements.lengthSlider.addEventListener('input', (e) => {
             elements.lengthLabel.textContent = `${translations[currentLang].length} ${e.target.value}`;
@@ -304,7 +301,6 @@
             }
         }
 
-        // --- ANA FONKSİYONLAR ---
         function analyzePassword(password) {
             updateStrengthMeter(password);
             calculateCrackTime(password);
@@ -415,7 +411,6 @@
             return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, '0')).join('');
         }
         
-        // Init
         setLanguage('tr');
         const canvas = document.getElementById('matrix-canvas');
         const ctx = canvas.getContext('2d');
@@ -443,3 +438,4 @@
     </script>
 </body>
 </html>
+
